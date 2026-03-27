@@ -1,0 +1,77 @@
+import { MapPin, Phone, Instagram } from "lucide-react";
+
+const ADDRESS = "Quadra 14 Lote 20 Friburgo B, Friburgo, Cidade Ocidental, GO, 72887-236";
+const PHONE = "+55 61 98426-9150";
+const INSTAGRAM = "@belavista.festas";
+const MAPS_EMBED =
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.0!2d-47.93!3d-16.08!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDA0JzQ4LjAiUyA0N8KwNTUnNDguMCJX!5e0!3m2!1spt-BR!2sbr!4v1";
+
+const ContactSection = () => (
+  <section id="localizacao" className="py-24 bg-secondary/50">
+    <div className="container mx-auto px-6">
+      <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground text-center mb-4">
+        <span className="text-primary">Localização</span> & Contato
+      </h2>
+      <p className="text-muted-foreground text-center max-w-md mx-auto mb-14">
+        Venha nos visitar ou entre em contato pelo WhatsApp.
+      </p>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {/* Info cards */}
+        <div className="flex flex-col gap-5">
+          <div className="glass-emerald rounded-2xl p-6 flex items-start gap-4">
+            <MapPin className="text-primary mt-1 shrink-0" size={22} />
+            <div>
+              <h3 className="font-display font-semibold text-foreground mb-1">Endereço</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{ADDRESS}</p>
+            </div>
+          </div>
+
+          <div className="glass-emerald rounded-2xl p-6 flex items-start gap-4">
+            <Phone className="text-primary mt-1 shrink-0" size={22} />
+            <div>
+              <h3 className="font-display font-semibold text-foreground mb-1">WhatsApp</h3>
+              <a
+                href="https://wa.me/5561984269150"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-primary hover:underline"
+              >
+                {PHONE}
+              </a>
+            </div>
+          </div>
+
+          <div className="glass-emerald rounded-2xl p-6 flex items-start gap-4">
+            <Instagram className="text-primary mt-1 shrink-0" size={22} />
+            <div>
+              <h3 className="font-display font-semibold text-foreground mb-1">Instagram</h3>
+              <a
+                href="https://instagram.com/belavista.festas"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-primary hover:underline"
+              >
+                {INSTAGRAM}
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Map */}
+        <div className="rounded-2xl overflow-hidden glass-emerald min-h-[320px]">
+          <iframe
+            title="Localização Espaço Bela Vista"
+            src={MAPS_EMBED}
+            className="w-full h-full min-h-[320px] border-0"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+);
+
+export default ContactSection;
