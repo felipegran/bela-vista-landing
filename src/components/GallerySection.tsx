@@ -6,12 +6,12 @@ import gallery5 from "@/assets/gallery-5.jpg";
 import gallery6 from "@/assets/gallery-6.jpg";
 
 const IMAGES = [
-  { src: gallery1, alt: "Salão decorado para evento" },
-  { src: gallery2, alt: "Festa de aniversário ao ar livre" },
-  { src: gallery3, alt: "Recepção de casamento iluminada" },
-  { src: gallery4, alt: "Área de buffet e gastronomia" },
-  { src: gallery5, alt: "Área de piscina e lazer" },
-  { src: gallery6, alt: "Fachada noturna do espaço" },
+  { src: "/foto-pokemon.jpeg", alt: "Decoração Pokémon" },
+  { src: "/foto-dino.jpeg", alt: "Festa Dinossauros" },
+  { src: "/foto-safari.jpeg", alt: "Tema Safari" },
+  { src: "/foto-salao1.jpeg", alt: "Nosso Salão" },
+  { src: "/foto-placa.jpeg", alt: "Entrada do Espaço" },
+  { src: "/foto-dentro.jpeg", alt: "Área Interna" },
 ];
 
 const GallerySection = () => (

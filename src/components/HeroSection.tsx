@@ -1,5 +1,5 @@
 import { Star } from "lucide-react";
-import heroImg from "@/assets/hero-venue.jpg";
+
 
 const HEADLINE =
   "O Espaço Bela Vista é referência em eventos da Cidade Ocidental-GO. Com ampla área, e uma equipe dedicada, transformamos cada celebração em uma experiência memorável.";
@@ -8,7 +8,7 @@ const HeroSection = () => (
   <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
     {/* Background image */}
     <img
-      src={heroImg}
+      src="/foto-salao1.jpeg"
       alt="Espaço Bela Vista - Salão de festas"
       className="absolute inset-0 w-full h-full object-cover"
       width={1920}
