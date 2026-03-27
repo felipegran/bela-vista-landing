@@ -8,7 +8,7 @@ const HeroSection = () => (
   <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
     {/* Background image */}
     <img
-      src="/foto-salao1.jpeg"
+      src="/foto-salao3.jpeg"
       alt="Espaço Bela Vista - Salão de festas"
       className="absolute inset-0 w-full h-full object-cover"
       width={1920}
