@@ -3,7 +3,7 @@ import { MapPin, Phone, Instagram } from "lucide-react";
 const ADDRESS = "Quadra 14 Lote 20 Friburgo B, Friburgo, Cidade Ocidental, GO, 72887-236";
 const PHONE = "+55 61 98426-9150";
 const INSTAGRAM = "@belavista.festas";
-const MAPS_EMBED = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.023470724654!2d-47.94327492347!3d-16.097383282472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935984f2d48dc9c3%3A0xf8fe296a5c6f3f33!2sBela%20Vista%20(espa%C3%A7o%20de%20eventos)!5e0!3m2!1spt-BR!2sbr!4v1711510000000!5m2!1spt-BR!2sbr";
+const MAPS_EMBED = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.023478724654!2d-47.94327492398502!3d-16.09794938458925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93598f13d4898ce9%3A0xfafee0165c6f3f33!2sBela%20Vista%20(espa%C3%A7o%20de%20eventos)!5e0!3m2!1spt-BR!2sbr!4v1711511200000!5m2!1spt-BR!2sbr";
 
 const ContactSection = () => (
   <section id="localizacao" className="py-24 bg-secondary/50">
